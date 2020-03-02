@@ -1,0 +1,90 @@
+html {
+    height: 100%;
+}
+
+.App {
+    padding: 20px;
+    height: 100%; /*change*/
+}
+
+.p-steps .p-steps-item {
+    width: calc(100% / 7)
+}
+
+.viewer {
+    flex: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 350px;
+    padding: 5px;
+}
+
+.container-graph {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+.container-process {
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+}
+
+.container-infra {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.container-compliance {
+    display: flex;
+    flex-direction: row;
+    min-height: 350px;
+    padding: 3px;
+}
+
+.compliance-view {
+    overflow: auto;
+    flex-direction: column;
+    min-width: 300px;
+    width: 50%;
+}
+
+.compliance-view-selector {
+    overflow: auto;
+    flex-direction: column;
+    width: 30%;
+    overflow-x: hidden;
+}
+
+.compliance-view-text {
+    overflow: auto;
+    flex-direction: column;
+    width: 70%;
+}
+
+.property-panel {
+    overflow: auto;
+    flex-direction: column;
+    width: 300px;
+    padding: 3px;
+}
+
+.button-import {
+    width: 350px;
+}
+
+.button-panel {
+    width: 200px;
+}
+
+.button-editpanel {
+    width: 98%;
+}
+
+.djs-bendpoints {
+    display: none;
+}

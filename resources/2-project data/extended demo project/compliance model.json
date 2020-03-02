@@ -1,0 +1,94 @@
+{
+  "requirement": [
+    {
+      "text": "Jeder Kaufmann ist verpflichtet, Bücher zu führen und in diesen seine Handelsgesch?fte und die Lage seines Verm?gens nach den Grundsätzen ordnungsmäßiger Buchführung ersichtlich zu machen. Die Buchführung muss so beschaffen sein, dass sie einem sachverständigen Dritten innerhalb angemessener Zeit einen Überblick über die Geschäftsvorfälle und über die Lage des Unternehmens vermitteln kann. Die Geschäftsvorfälle müssen sich in ihrer Entstehung und Abwicklung verfolgen lassen.",
+      "title": "Buchführungspflicht",
+      "source": {
+        "norm": "HGB",
+        "paragraph": "238",
+        "section": "1"
+      }
+    },
+	{
+      "text": "Jede Zahlung muss sachlich und rechnerisch richtig sein.",
+      "title": "Zahlungsfreigabe",
+      "source": {
+        "norm": "Interne Richtlinie",
+        "paragraph": "1",
+        "section": ""
+      }
+    },
+	{
+      "text": "Vor dem Kauf eines Produkts mit einem Wert > 50€ muss eine Ausschreibung erfolgen.",
+      "title": "Ausschreibungspflicht",
+      "source": {
+        "norm": "Interne Richtlinie",
+        "paragraph": "2",
+        "section": ""
+      }
+    },
+	{
+      "text": "Eine interne Bestellung muss freigegeben werden.",
+      "title": "Freigabe der Bestellung",
+      "source": {
+        "norm": "Interne Richtlinie",
+        "paragraph": "3",
+        "section": ""
+      }
+    },
+	{
+      "text": "Description...",
+      "title": "Einsatz von Containern",
+      "source": {
+        "norm": "BSI Sys",
+        "paragraph": "1.6",
+        "section": ""
+      }
+    },
+	{
+      "text": "Description...",
+      "title": "Aufbau ISMS",
+      "source": {
+        "norm": "BSI Standard 200-2",
+        "paragraph": "",
+        "section": ""
+      }
+    },
+	{
+      "text": "Description BSI-Grundschutz",
+      "title": "BSI-Grundschutz-Kompendium",
+      "source": {
+        "norm": "BSI-Grundschutz-Kompendium",
+        "paragraph": "",
+        "section": ""
+      }
+    },
+	{
+      "text": "Rechnung ist jedes Dokument, mit dem über eine Lieferung oder sonstige Leistung abgerechnet wird, gleichgültig, wie dieses Dokument im Geschäftsverkehr bezeichnet wird. Die Echtheit der Herkunft der Rechnung, die Unversehrtheit ihres Inhalts und ihre Lesbarkeit müssen gewährleistet werden. Echtheit der Herkunft bedeutet die Sicherheit der Identität des Rechnungsausstellers. Unversehrtheit des Inhalts bedeutet, dass die nach diesem Gesetz erforderlichen Angaben nicht geändert wurden. Jeder Unternehmer legt fest, in welcher Weise die Echtheit der Herkunft, die Unversehrtheit des Inhalts und die Lesbarkeit der Rechnung gewährleistet werden. Dies kann durch jegliche innerbetriebliche Kontrollverfahren erreicht werden, die einen verlässlichen Prüfpfad zwischen Rechnung und Leistung schaffen können. Rechnungen sind auf Papier oder vorbehaltlich der Zustimmung des Empfängers elektronisch zu übermitteln. Eine elektronische Rechnung ist eine Rechnung, die in einem elektronischen Format ausgestellt und empfangen wird.",
+      "title": "Ausstellung von Rechnungen",
+      "source": {
+        "norm": "UStG",
+        "paragraph": "14",
+        "section": "1"
+      }
+    },
+	{
+      "text": "Durch logische Zugriffskontrollen z.B. unter Verwendung von Benutzer-ID und Passwörtern ist die Identität der Benutzer von IT-Systemen eindeutig festzustellen, um damit nicht autorisierte Zugriffe zu verhindern. Mitarbeitern sind nur die Berechtigungen zu erteilen, die zur Wahrnehmung ihrer Aufgaben erforderlich sind.",
+      "title": "Logischer Zugriff",
+      "source": {
+        "norm": "IDW RS FAIT 1",
+        "paragraph": "Tz 84",
+        "section": ""
+      }
+    },
+	{
+      "text": "Physische Sicherungsma?nahmen dienen dem Schutz der Hardware sowie der Programme und Daten vor Verlust, Zerst?rung und unberechtigter Ver?nderung. Hierzu z?hlen bauliche Ma?nahmen, Zugangskontrollen, Feuerschutzma?nahmen und Ma?nahmen zur Sicherung der Stromversorgung, die zur Sicherung der Funktionsf?higkeit der IT erforderlich sind.",
+      "title": "Physischer Zutritt",
+      "source": {
+        "norm": "IDW RS FAIT 1",
+        "paragraph": "Tz 83",
+        "section": ""
+      }
+    }
+	]
+}

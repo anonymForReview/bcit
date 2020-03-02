@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.opengroup.org/xsd/archimate/3.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengroup.org/xsd/archimate/3.0/ http://www.opengroup.org/xsd/archimate/3.0/archimate3_Diagram.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd" identifier="id-4ce7f416-123f-4f5d-8632-26b2c4d70a71">
+  <name xml:lang="de">it architecture example</name>
+  <metadata>
+    <schema>Dublin Core</schema>
+    <schemaversion>1.1</schemaversion>
+    <dc:title>Architecture Demo</dc:title>
+    <dc:creator>Tobias Seyffarth</dc:creator>
+  </metadata>
+  <elements>
+    <element identifier="id-4d67fd9c-21e8-47ec-b55b-c8be82468be0" xsi:type="ApplicationComponent">
+      <name xml:lang="de">ERP MM</name>
+      <properties>
+        <property propertyDefinitionRef="propid-1">
+          <value xml:lang="de">pay</value>
+        </property>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="de">sap</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="de">1.23</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-1e54bf0c-62b3-4f02-9868-8da65a9d910a" xsi:type="ApplicationComponent">
+      <name xml:lang="de">ERP FI</name>
+      <properties>
+        <property propertyDefinitionRef="propid-2">
+          <value xml:lang="de">sap</value>
+        </property>
+        <property propertyDefinitionRef="propid-3">
+          <value xml:lang="de">4.56</value>
+        </property>
+      </properties>
+    </element>
+    <element identifier="id-40963783-b892-4a57-909d-b626142e6bf8" xsi:type="Device">
+      <name xml:lang="de">Hardware</name>
+      <properties>
+        <property propertyDefinitionRef="propid-4">
+          <value xml:lang="de">Halle, Germany</value>
+        </property>
+        <property propertyDefinitionRef="propid-5">
+          <value xml:lang="de">IBM</value>
+        </property>
+        <property propertyDefinitionRef="propid-6">
+          <value xml:lang="de">model no</value>
+        </property>
+      </properties>
+    </element>
+  </elements>
+  <relationships>
+    <relationship identifier="id-f1746509-b649-459c-bc65-c48156fa54ef" source="id-40963783-b892-4a57-909d-b626142e6bf8" target="id-1e54bf0c-62b3-4f02-9868-8da65a9d910a" xsi:type="Serving" />
+    <relationship identifier="id-659d78cb-3e32-4e04-acd0-405bed781b82" source="id-40963783-b892-4a57-909d-b626142e6bf8" target="id-4d67fd9c-21e8-47ec-b55b-c8be82468be0" xsi:type="Serving" />
+  </relationships>
+  <propertyDefinitions>
+    <propertyDefinition identifier="propid-1" type="string">
+      <name>license</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-5" type="string">
+      <name>manufacturer</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-6" type="string">
+      <name>model</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-4" type="string">
+      <name>place</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-2" type="string">
+      <name>vendor</name>
+    </propertyDefinition>
+    <propertyDefinition identifier="propid-3" type="string">
+      <name>version</name>
+    </propertyDefinition>
+  </propertyDefinitions>
+  <views>
+    <diagrams>
+      <view identifier="id-92ce57a8-eec3-44d5-a794-6348dc6c7343" xsi:type="Diagram">
+        <name xml:lang="de">Default View</name>
+        <node identifier="id-08a929ce-42fd-4934-adda-da103684f111" elementRef="id-40963783-b892-4a57-909d-b626142e6bf8" xsi:type="Element" x="696" y="336" w="120" h="55">
+          <style>
+            <fillColor r="201" g="231" b="183" />
+            <lineColor r="92" g="92" b="92" />
+          </style>
+        </node>
+        <node identifier="id-987a4ab1-6ca9-4fe9-a90f-449843de2ae6" elementRef="id-4d67fd9c-21e8-47ec-b55b-c8be82468be0" xsi:type="Element" x="598" y="196" w="120" h="55">
+          <style>
+            <fillColor r="181" g="255" b="255" />
+            <lineColor r="92" g="92" b="92" />
+          </style>
+        </node>
+        <node identifier="id-51c715fc-c4d5-4a16-83b5-0c3200038360" elementRef="id-1e54bf0c-62b3-4f02-9868-8da65a9d910a" xsi:type="Element" x="780" y="196" w="120" h="55">
+          <style>
+            <fillColor r="181" g="255" b="255" />
+            <lineColor r="92" g="92" b="92" />
+          </style>
+        </node>
+        <connection identifier="id-a3ddd950-1637-4f22-80ed-4bc4555219a8" relationshipRef="id-f1746509-b649-459c-bc65-c48156fa54ef" xsi:type="Relationship" source="id-08a929ce-42fd-4934-adda-da103684f111" target="id-51c715fc-c4d5-4a16-83b5-0c3200038360">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+          </style>
+        </connection>
+        <connection identifier="id-f3c0b3f4-4375-4d32-bfa3-fe67ebdcdc7d" relationshipRef="id-659d78cb-3e32-4e04-acd0-405bed781b82" xsi:type="Relationship" source="id-08a929ce-42fd-4934-adda-da103684f111" target="id-987a4ab1-6ca9-4fe9-a90f-449843de2ae6">
+          <style>
+            <lineColor r="0" g="0" b="0" />
+          </style>
+        </connection>
+      </view>
+    </diagrams>
+  </views>
+</model>
