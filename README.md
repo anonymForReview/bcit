@@ -12,9 +12,9 @@ and information technology. Furthermore BCIT is able to propose compliant busine
 ## Features
 - Import business process modelled as *.bpmn, import IT architecture modelled as TOGAF Open Exchange Format and import compliance requirement model 
 - Connect the model elements together
-- Analyze the interactions between compliance and business process change [1] 
-- Define alternative compliance processes to compliance requirements [2]
-- Automatically propose compliant business process in case of a compliance violation [2]
+- Analyze the interactions between compliance and business process change 
+- Define alternative compliance processes to compliance requirements
+- Automatically propose compliant business process in case of a compliance violation
 - Export compliant business processes as *.bpmn 
 
 ## Run
