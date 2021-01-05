@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
     "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bpmn-js": "^3.2.3",
     "bpmn-moddle": "^5.1.6",
     "classnames": "^2.2.6",
