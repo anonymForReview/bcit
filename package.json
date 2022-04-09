@@ -25,7 +25,7 @@
     "file-saver": "^2.0.2",
     "file-system": "^2.2.2",
     "mini.css": "^3.0.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "primeicons": "^1.0.0",
     "primereact": "^3.1.0",
     "prop-types": "^15.7.2",
